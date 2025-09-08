@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+#Installation of Nexus as a container
+#Once docker is istalled, run the below command:
+
+docker run -d --name nexus -p 8081:8081 sonatype/nexus3:latest
