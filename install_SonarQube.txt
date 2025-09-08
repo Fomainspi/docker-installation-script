@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+#Installation of SonarQube as a container
+#once docker is istalled, run the below command:
+
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
